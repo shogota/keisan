@@ -1,0 +1,45 @@
+<!DOCTYPE gtml>
+
+<!-- index.html -->
+<!DOCTYPE html>
+
+
+<html lang="ja">
+  <head>
+  <SCRIPT LANGUAGE="JavaScript">
+  function plus(){document.P.Z.value=eval
+   (document.P.X.value)+
+   eval(document.P.Y.value);}
+  function hiku(){document.P.Z.value=eval
+   (document.P.X.value)-
+   eval(document.P.Y.value);}
+  function kakeru(){document.P.Z.value=eval
+   (document.P.X.value)*
+   eval(document.P.Y.value);}
+  function waru(){document.P.Z.value=eval
+   (document.P.X.value)/
+   eval(document.P.Y.value);}
+</SCRIPT>
+  </head>
+  <body>
+  <FORM NAME="P">
+  data1
+  <INPUT TYPE="text" NAME="X" SIZE=20>
+  data2
+  <INPUT TYPE="text" NAME="Y" SIZE=20> <br>
+  
+  =
+  <INPUT TYPE="text" NAME="Z" SIZE=20> 
+  <P>
+  <INPUT type="button" value="➕" onClick="plus()">
+  <INPUT type="button" value="➖" onClick="hiku()">
+  <INPUT type="button" value="✕" onClick="kakeru()">
+  <INPUT type="button" value="➗" onClick="waru()">
+
+  <INPUT TYPE="reset" VALUE="clear">
+</FORM>
+ <button type="button" onclick="history.back()">return</button>
+  </form>
+
+  </body>
+</html>
